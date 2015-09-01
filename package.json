@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A failfast module for idiomatic splitting error handling from successful continuation.",
   "keywords": [
+    "fail",
+    "fast",
     "failfast",
+    "error",
     "error handling",
     "functional failfast",
     "variables",
