@@ -50,9 +50,9 @@ MongoClient.connect(url, function(err, db) {
 ```javascript
 var MongoClient = require('mongodb').MongoClient,
     url = 'mongodb://localhost:27017/myproject',
-    failfast = require('fp-error-handling');
+    fpErrorHandling = require('fp-error-handling');
 
-MongoClient.connect(url, failfast(
+MongoClient.connect(url, fpErrorHandling(
     function(err){
         console.log(err);
     },
