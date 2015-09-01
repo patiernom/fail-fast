@@ -6,7 +6,7 @@
 [![Build Status][fp-error-handling-travis-image]][fp-error-handling-travis-url]
 [![Coverage Status][fp-error-handling-coverage-image]][fp-error-handling-coverage-url]
 
-# Functional Error Handling ( fail-fast )
+# Functional Error Handling
 
 A fail-fast module for idiomatic splitting error handling from successful continuation.
 
