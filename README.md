@@ -65,7 +65,11 @@ MongoClient.connect(url, failfast(
 
 
 ## Usage
+`fp-error-handling` is a function that takes the following arguments:
 
+* callback - (optional) the callback function that `fp-error-handling` will split error handling for,
+* continuation - (optional) a function where successful continuation proceeds,
+* thisArg - (optional) an object that will be used as the continuation's this context.
 
 
 ## Release History
