@@ -1,6 +1,6 @@
 {
   "name": "fp-error-handling",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A failfast module for idiomatic splitting error handling from successful continuation.",
   "keywords": [
     "fail",
@@ -8,9 +8,7 @@
     "failfast",
     "error",
     "error handling",
-    "functional failfast",
-    "variables",
-    "json"
+    "functional"
   ],
   "author": {
     "name": "Marco Patierno",
