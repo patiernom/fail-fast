@@ -17,7 +17,6 @@
     "email": "m.patierno@pizzabo.it",
     "url": "https://github.com/patiernom"
   },
-  "readme": "README.md",
   "license": "MIT",
   "main": "index.js",
   "engines": {
