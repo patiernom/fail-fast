@@ -1,6 +1,6 @@
 {
   "name": "fp-error-handling",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A failfast module for idiomatic splitting error handling from successful continuation.",
   "keywords": [
     "fail",
@@ -10,11 +10,7 @@
     "error handling",
     "functional"
   ],
-  "author": {
-    "name": "Marco Patierno",
-    "email": "m.patierno@pizzabo.it",
-    "url": "https://github.com/patiernom"
-  },
+  "author": "Marco Patierno <marco_patierno@msn.com> https://github.com/patiernom",
   "license": "MIT",
   "main": "index.js",
   "engines": {
@@ -44,10 +40,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PizzaBoIt/fp-error-handling.git"
+    "url": "git+https://patiernom@github.com/patiernom/fail-fast.git"
   },
   "bugs": {
-    "url": "https://github.com/PizzaBoIt/fp-error-handling/issues"
+    "url": "https://github.com/patiernom/fail-fast/issues"
   },
-  "homepage": "https://github.com/PizzaBoIt/fp-error-handling#readme"
+  "homepage": "https://github.com/patiernom/fail-fast#readme"
 }
