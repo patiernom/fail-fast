@@ -81,8 +81,8 @@ _(Nothing yet)_
 
 Licensed under the MIT license.
 
-[fp-error-handling-fury-image]: https://badge.fury.io/js/fail-fast.svg
-[fp-error-handling-fury-url]: https://badge.fury.io/js/fail-fast
+[fp-error-handling-fury-image]: https://badge.fury.io/js/fp-error-handling.svg
+[fp-error-handling-fury-url]: https://badge.fury.io/js/fp-error-handling
 [fp-error-handling-dependencies-image]: https://david-dm.org/patiernom/fp-error-handling.svg
 [fp-error-handling-dependencies-url]: https://david-dm.org/patiernom/fp-error-handling
 [fp-error-handling-devdependencies-image]: https://david-dm.org/patiernom/fp-error-handling/dev-status.svg
