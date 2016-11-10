@@ -50,9 +50,9 @@ MongoClient.connect(url, function(err, db) {
 ```javascript
 var MongoClient = require('mongodb').MongoClient,
     url = 'mongodb://localhost:27017/myproject',
-    fpErrorHandling = require('fp-error-handling');
+    failFast = require('fp-error-handling');
 
-MongoClient.connect(url, fpErrorHandling(
+MongoClient.connect(url, failFast(
     function(err){
         console.log(err);
     },
@@ -82,15 +82,15 @@ _(Nothing yet)_
 Licensed under the MIT license.
 
 
-[fp-error-handling-fury-image]: https://badge.fury.io/gh/PizzaBoIt%2Ffp-error-handling.svg
-[fp-error-handling-fury-url]: http://badge.fury.io/gh/PizzaBoIt%2Ffp-error-handling
-[fp-error-handling-dependencies-image]: https://david-dm.org/PizzaBoIt/fp-error-handling.svg
-[fp-error-handling-dependencies-url]: https://david-dm.org/PizzaBoIt/fp-error-handling
-[fp-error-handling-devdependencies-image]: https://david-dm.org/PizzaBoIt/fp-error-handling/dev-status.svg
-[fp-error-handling-devdependencies-url]: https://david-dm.org/PizzaBoIt/fp-error-handling#info=devDependencies
-[fp-error-handling-peerdependencies-image]: https://david-dm.org/PizzaBoIt/fp-error-handling/peer-status.svg
-[fp-error-handling-peerdependencies-url]: https://david-dm.org/PizzaBoIt/fp-error-handling#info=peerDependencies
-[fp-error-handling-travis-image]: https://travis-ci.org/PizzaBoIt/fp-error-handling.svg?branch=master
-[fp-error-handling-travis-url]: https://travis-ci.org/PizzaBoIt/fp-error-handling
-[fp-error-handling-coverage-image]: https://coveralls.io/repos/PizzaBoIt/fp-error-handling/badge.svg?branch=master&service=github
-[fp-error-handling-coverage-url]: https://coveralls.io/github/PizzaBoIt/fp-error-handling?branch=master
+[fp-error-handling-fury-image]: https://badge.fury.io/gh/patiernom%2Ffp-error-handling.svg
+[fp-error-handling-fury-url]: http://badge.fury.io/gh/patiernom%2Ffp-error-handling
+[fp-error-handling-dependencies-image]: https://david-dm.org/patiernom/fp-error-handling.svg
+[fp-error-handling-dependencies-url]: https://david-dm.org/patiernom/fp-error-handling
+[fp-error-handling-devdependencies-image]: https://david-dm.org/patiernom/fp-error-handling/dev-status.svg
+[fp-error-handling-devdependencies-url]: https://david-dm.org/patiernom/fp-error-handling#info=devDependencies
+[fp-error-handling-peerdependencies-image]: https://david-dm.org/patiernom/fp-error-handling/peer-status.svg
+[fp-error-handling-peerdependencies-url]: https://david-dm.org/patiernom/fp-error-handling#info=peerDependencies
+[fp-error-handling-travis-image]: https://travis-ci.org/patiernom/fp-error-handling.svg?branch=master
+[fp-error-handling-travis-url]: https://travis-ci.org/patiernom/fp-error-handling
+[fp-error-handling-coverage-image]: https://coveralls.io/repos/patiernom/fp-error-handling/badge.svg?branch=master&service=github
+[fp-error-handling-coverage-url]: https://coveralls.io/github/patiernom/fp-error-handling?branch=master

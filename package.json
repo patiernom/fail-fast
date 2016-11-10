@@ -1,7 +1,7 @@
 {
   "name": "fp-error-handling",
-  "version": "0.0.5",
-  "description": "A failfast module for idiomatic splitting error handling from successful continuation.",
+  "version": "0.0.6",
+  "description": "A fail fast module for idiomatic splitting error handling from successful continuation.",
   "keywords": [
     "fail",
     "fast",
